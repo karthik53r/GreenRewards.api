@@ -1,10 +1,17 @@
 {
+  "name": "your-app-name",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "build": "echo 'No build necessary for Node.js server'",
+    "dev": "node server.js"
+  },
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
     "express": "^4.19.2",
     "jsonwebtoken": "^9.0.2",
-    "mongo": "^0.1.0",
     "mongoose": "^8.4.4"
   }
 }
